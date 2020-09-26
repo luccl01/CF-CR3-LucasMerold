@@ -15,7 +15,7 @@ var calculator = document.getElementById("button")
 calculator.addEventListener('click', calculate, false)
 
 
-console.log (result)
+// console.log (result)
 console.log (age)
 console.log (horsePower)
 console.log (country)
@@ -57,5 +57,5 @@ console.log (multiply)
 console.log (add)
 console.log (insurance)
 var insurance = Number(horsePower) * multiply / Number(age) + add
-document.getElementById("result").innerHTML = name +` your insurance costs `+ insurance +"€"
+document.getElementById("result").innerHTML = name +` your insurance costs `+ insurance.toFixed(2) +"€"
 }
