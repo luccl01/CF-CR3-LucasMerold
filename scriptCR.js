@@ -10,12 +10,12 @@ var austria = document.getElementById("country1").value
 var hungary =document.getElementById("country2").value
 var greece =document.getElementById("country3").value
 var insurance = Number(horsePower) * multiply / Number(age) + add
-var result = document.getElementById("result").innerHTML = name +`your insurance costs `+ insurance 
+// var result = document.getElementById("result").innerHTML = name +`your insurance costs `+ insurance 
 var calculator = document.getElementById("button")
 calculator.addEventListener('click', calculate, false)
 
 
-// console.log (result)
+console.log (result)
 console.log (age)
 console.log (horsePower)
 console.log (country)
