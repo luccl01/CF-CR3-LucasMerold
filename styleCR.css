@@ -1,0 +1,294 @@
+.header {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;     
+   
+}
+
+.headerbeginning {
+    
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: hsl(6, 42%, 71%);
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoNewspaper{
+    width: 15%;
+    height: 50%;
+    
+}
+
+.Banner1 {
+    width: 35%;
+    height: 70%;
+}
+
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(139, 9, 9);
+    height: 40px;   
+}
+
+#navbarList {
+display: flex;
+list-style-type: none;
+width: 100%;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+}
+
+.listelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+}
+
+.listelement a {
+    padding: 0px 30px;   
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listelement a:hover {
+    color: teal;
+    font-size: 180%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    width: 100%;
+    height: 60em;
+    background-image: url(./images/traffic-332857_1920.jpg);
+    background-size: cover;
+    z-index: ;
+
+}
+
+#carInsurance {
+    display: flex;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    color: white;
+    font-size: 240%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grey {
+    display: flex;
+    width: 100%;
+    height: 20em;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    z-index: 0;
+    padding: 0;
+    font-size: 120%;
+    line-height: 10%;
+    color: rgb(85, 83, 83);
+}
+
+.mainbar{
+    border: 0.3em solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 80%;
+    height: 50em;
+    background-color: white;
+    opacity: 80%;
+    z-index: 2;
+}
+
+.mainbar h1 {
+    font-size: 260%;
+    line-height: 150%;
+}
+
+.mainbarContent {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 35em;
+}
+.formular{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formular input{
+    display: flex;
+    width: 15em;
+    height: 3em;
+    /* background-color: white; */
+    /* justify-content: space-between; */
+}
+.formular1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formular1 select {
+    width: 15.5em;
+    height: 3.5em;
+    display: flex;
+}
+.formular1 input {
+    display: flex;
+    width: 15em;
+    height: 3em;
+}
+
+input[type="submit"] {
+    font-size: 1.5em; 
+    padding: 5px 30px; 
+    font-family: Roboto, sans-serif;
+    /* font-weight: 300; */
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+ }
+
+.mainEnd {
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+
+.mainEndcontent {
+    border-top: 2px solid black;
+    padding-left: 3em;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height:60% ;
+    color: rgb(95, 95, 95);
+    box-shadow: 2px 2px 4px 1px grey;
+}
+.mainEndcontent p{
+line-height: 100%;
+padding: 0;
+margin: 0;
+}
+
+.mainEndcontent h2{
+    font-size: 140%;
+    color: rgb(23, 86, 146);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.mainEndcontent h3{
+    padding: 0;
+    margin: 0;
+
+}
+.mainEndcontent li{
+list-style-type: none;
+padding-left: 0em;
+margin-left: 0em;
+margin: 0.5em;
+}
+.mainEndcontent ul{
+    padding-left: 0em;
+    margin-left: 0em;
+}
+#bolt{
+    font-weight: bold;
+    color: black;
+}
+
+.mainEndcontent img{
+    width: 1em;
+}
+
+
+/* -------------------------FOOTER---------------------------- */
+
+.footer{
+   
+    margin-top: 40px;
+}
+.footerend {
+   
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    justify-content: flex-end;
+    
+}
+.footerend div {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logoNewspaper{
+    width: 15%;
+    height: 50%;
+    display: flex;
+    padding-right: 30px;
+    
+}
+
+.Banner1 {
+    width: 35%;
+    height: 70%;
+}
+
+.Footernavbar {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 40px;   
+}
+
+li a {
+    padding: 0px 20px;   
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover {
+    color: teal;
+    font-size: 180%;
+}
+.nameCF {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    color: white;
+    padding-right: 20em;
+    padding-bottom: 0.8em;
+    font-size: 120%;
+}
